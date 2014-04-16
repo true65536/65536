@@ -47,6 +47,10 @@ KeyboardInputManager.prototype.listen = function () {
     68: 1, // D
     83: 2, // S
     65: 3  // A
+    73: 0, // I
+    76: 1, // L
+    75: 2, // K
+    74: 3, // J
   };
 
   // Respond to direction keys
@@ -66,7 +70,7 @@ KeyboardInputManager.prototype.listen = function () {
     }
 
     // R key restarts the game
-    if (!modifiers && event.which === 82) {
+    if (!modifiers && event.which === 82 && event.which === 32) {
       self.restart.call(self, event);
     }
   });
