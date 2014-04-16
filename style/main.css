@@ -299,7 +299,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(119, 110, 101, 0.9); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -391,23 +391,23 @@ hr {
   -webkit-transform: translate(363px, 484px);
   -moz-transform: translate(363px, 484px);
   transform: translate(363px, 484px); }
-.tile.tile-position-4-1 {
+.tile.tile-position-5-1 {
   -webkit-transform: translate(484px, 0px);
   -moz-transform: translate(484px, 0px);
   transform: translate(484px, 0px); }
-.tile.tile-position-4-2 {
+.tile.tile-position-5-2 {
   -webkit-transform: translate(484px, 121px);
   -moz-transform: translate(484px, 121px);
   transform: translate(484px, 121px); }
-.tile.tile-position-4-3 {
+.tile.tile-position-5-3 {
   -webkit-transform: translate(484px, 242px);
   -moz-transform: translate(484px, 242px);
   transform: translate(484px, 242px); }
-.tile.tile-position-4-4 {
+.tile.tile-position-5-4 {
   -webkit-transform: translate(484px, 363px);
   -moz-transform: translate(484px, 363px);
   transform: translate(484px, 363px); }
-.tile.tile-position-4-5 {
+.tile.tile-position-5-5 {
   -webkit-transform: translate(484px, 484px);
   -moz-transform: translate(484px, 484px);
   transform: translate(484px, 484px); }
