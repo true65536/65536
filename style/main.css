@@ -299,7 +299,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(119, 110, 101, 0.9); }
+  background: rgba(255, 255, 255, 1); }
   .grid-cell:last-child {
     margin-right: 0; }
 
