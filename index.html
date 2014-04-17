@@ -2,7 +2,7 @@
 <html lang="en" manifest="cache.appcache">
 <head>
   <meta charset="utf-8">
-  <title>65536 Endless</title>
+  <title>2048 Endless</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -15,15 +15,15 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta name="format-detection" content="telephone=no" />
 
-  <meta property="og:title" content="65536 Endless game"/>
-  <meta property="og:site_name" content="65536 Endless game"/>
+  <meta property="og:title" content="2048 Endless game"/>
+  <meta property="og:site_name" content="2048 Endless game"/>
   <meta property="og:description" content="Just join the numbers and get high score in this page! Careful: this game is extremely addictive!"/>
   <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
 </head>
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">65536 Endless</h1>
+      <h1 class="title">2048 Endless</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -51,17 +51,8 @@
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
@@ -72,10 +63,8 @@
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
-          <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
@@ -93,11 +82,11 @@
     </p>
     <hr>
     <p>
-      Can you reach <strong>65536, 131072, and 262144 tiles?</strong> If you like <strong>this game</strong>, <a href="https://github.com/aarextiaokhiao/Aarex2048/">click me!</a>
+      Can you reach <strong>2048, 4096, and 8192 tiles?</strong> If you like <strong>this game</strong>, <a href="https://github.com/aarextiaokhiao/Aarex2048/">click me!</a>
     </p>
     <hr>
     <p>
-    <strong class="important">Note:</strong> This site is the official version of 65536 Endless. You can play it on your phone via <a href="http://aarextiaokhiao.github.io/Aarex2048">http://aarextiaokhiao.github.io/Aarex2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    <strong class="important">Note:</strong> This site is the official version of 65536 Endless. You can play it on your phone via <a href="http://aarextiaokhiao.github.io/Aarex2048">http://aarextiaokhiao.github.io/Aarex2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution. You can play it on 5x5 grid at <a href="http://aarextiaokhiao.github.io/Aarex2048/size5.html">http://aarextiaokhiao.github.io/Aarex2048/size5.html.</a>
     </p>
   </div>
 
@@ -112,7 +101,7 @@
   <script src="js/game_manager.js"></script>
   <script>
   window.requestAnimationFrame(function () {
-  new GameManager(5, KeyboardInputManager, HTMLActuator, LocalStorageManager);
+  new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
   });
   </script>
 
