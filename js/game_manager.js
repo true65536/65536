@@ -1,11 +1,10 @@
-function GameManager(size, InputManager, Actuator, StorageManager, Goal) {
+function GameManager(size, InputManager, Actuator, StorageManager) {
   this.size           = size; // Size of the grid
   this.inputManager   = new InputManager;
   this.storageManager = new StorageManager;
   this.actuator       = new Actuator;
 
   this.startTiles     = 2;
-  this.goal = Goal
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
@@ -172,7 +171,7 @@ GameManager.prototype.move = function (direction) {
           self.score += merged.value;
 
           // The mighty 2048 tile
-          if (merged.value === GameManager.goal) self.won = true;
+          if (merged.value === 1) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
