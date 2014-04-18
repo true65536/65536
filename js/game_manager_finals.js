@@ -74,7 +74,7 @@ GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
     if (this.size < 3)
     {
-      var value = 4;
+      var value = 2;
     }
     else
     {
