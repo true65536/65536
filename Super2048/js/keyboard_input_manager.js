@@ -39,8 +39,8 @@ KeyboardInputManager.prototype.listen = function () {
     39: 1, // Right
     40: 2, // Down
     37: 3, // Left
-    87: 4, // Q
-    68: 5, // W
+    81: 4, // Q
+    86: 5, // W
     83: 6, // S
     65: 7, // A
   };
