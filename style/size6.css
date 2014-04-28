@@ -597,13 +597,13 @@ hr {
         font-size: 8px; } }
   .tile.tile-4194304 .tile-inner {
     color: #f9f6f2;
-    background: #ffbfff;
+    background: #ffdfbf;
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
         font-size: 8px; } }
   .tile.tile-8388608 .tile-inner {
-    background: #ffdfff;
+    background: #ffffdf;
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
