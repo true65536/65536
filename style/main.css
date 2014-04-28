@@ -485,7 +485,7 @@ hr {
     background: #007000;
     font-size: 25px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-65536 .tile-inner {
+      .tile.tile-131072 .tile-inner {
         font-size: 10px; } }
 
 @-webkit-keyframes appear {
