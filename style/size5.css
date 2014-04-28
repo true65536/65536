@@ -415,28 +415,28 @@ hr {
         font-size: 12px; } }
   .tile.tile-32768 {
     color: #f9f6f2;
-    background: #00e600;
+    background: #00ff00;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-32768 .tile-inner {
         font-size: 12px; } }
   .tile.tile-65536 {
     color: #f9f6f2;
-    background: #00c600;
+    background: #00ff7f;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
         font-size: 12px; } }
   .tile.tile-131072 {
     color: #f9f6f2;
-    background: #007000;
+    background: #007fff;
     font-size: 25px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
         font-size: 10px; } }
   .tile.tile-262144 {
     color: #f9f6f2;
-    background: #000000;
+    background: #1f5f7f;
     font-size: 25px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
@@ -454,45 +454,45 @@ hr {
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 8px; } }
+        font-size: 10px; } }
   .tile.tile-2097152 {
     color: #f9f6f2;
     background: #bf9f7f;
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 8px; } }
+        font-size: 10px; } }
   .tile.tile-4194304 {
     color: #f9f6f2;
-    background: #ffbfff;
+    background: #ffdfbf;
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 8px; } }
+        font-size: 10px; } }
   .tile.tile-8388608 {
-    background: #ffdfff;
+    background: #ffffdf;
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 8px; } }
+        font-size: 10px; } }
   .tile.tile-16777216 {
     background: #ffffff;
     font-size: 18px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 7px; } }
+        font-size: 10px; } }
   .tile.tile-33554432 {
     background: #7f7fbf;
     font-size: 18px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 7px; } }
+        font-size: 10px; } }
   .tile.tile-67108864 {
     background: #00007f;
     font-size: 18px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 7px; } }
+        font-size: 10px; } }
 
 @-webkit-keyframes appear {
   0% {
