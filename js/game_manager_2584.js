@@ -128,12 +128,12 @@ GameManager.prototype.moveTile = function (tile, cell) {
 GameManager.prototype.testFib = function(value) {
   var fib = [1,1]
 
-  while (sum > fib[fib.length-1]) {
+  while (value > fib[fib.length-1]) {
     fib.push(fib[fib.length-1] + fib[fib.length-2])
   }
   
   for (var i = 0; i<fib.length && value>=fib[i]; i++) {
-    if (sum === fib[i]) {
+    if (value === fib[i]) {
       return true;
     }
   }
