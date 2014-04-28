@@ -125,6 +125,21 @@ GameManager.prototype.moveTile = function (tile, cell) {
   tile.updatePosition(cell);
 };
 
+GameManager.prototype.testFib = function(value) {
+  var fib = [1,1]
+
+  while (sum > fib[fib.length-1]) {
+    fib.push(fib[fib.length-1] + fib[fib.length-2])
+  }
+  
+  for (var i = 0; i<fib.length && value>=fib[i]; i++) {
+    if (sum === fib[i]) {
+      return true;
+    }
+  }
+  return false;
+};
+
 // Move tiles on the grid in the specified direction
 GameManager.prototype.move = function (direction) {
   // 0: up, 1: right, 2: down, 3: left
@@ -152,8 +167,8 @@ GameManager.prototype.move = function (direction) {
         var next      = self.grid.cellContent(positions.next);
 
         // Only one merger per row traversal?
-        if (next && next.value === tile.value && !next.mergedFrom) {
-          var merged = new Tile(positions.next, tile.value * 2);
+        if (next && self.testFib(tile.value + next.value) && !next.mergedFrom) {
+          var merged = new Tile(positions.next, tile.value + next.value);
           merged.mergedFrom = [tile, next];
 
           self.grid.insertTile(merged);
