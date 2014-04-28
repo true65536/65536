@@ -40,7 +40,7 @@ KeyboardInputManager.prototype.listen = function () {
     40: 2, // Down
     37: 3, // Left
     81: 4, // Q
-    86: 5, // W
+    87: 5, // W
     83: 6, // S
     65: 7, // A
   };
