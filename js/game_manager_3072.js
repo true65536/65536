@@ -68,7 +68,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.5 ? 1 : 2;
+    var value = Math.random() >= 0.5 ? 1 : 2;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
@@ -127,18 +127,19 @@ GameManager.prototype.moveTile = function (tile, cell) {
 };
 
 GameManager.test = function (value) {
-  var threes = [3]
-  while (value >= threes[threes.length - 1])
+  var test = 3;
+  while (true)
   {
-    threes.push(threes[threes.length - 1]*2);
-  }
-  
-  for (var i = 0; i<threes.length && value>=threes[i]; i++) {
-    if (value === threes[i]) {
+    if (test > value)
+    {
+      return false;
+    }
+    if (test === value)
+    {
       return true;
     }
+    var test = test*2;
   }
-  return false;
 };
 
 // Move tiles on the grid in the specified direction
