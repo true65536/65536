@@ -391,30 +391,63 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
+  .tile.tile-1 .tile-inner {
+    background: #ffffff; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #eee4da; }
+  .tile.tile-3 .tile-inner {
+    background: #f0dfca; }
   .tile.tile-4 .tile-inner {
-    background: #f0d7aa;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #f0d7aa; }
+  .tile.tile-5 .tile-inner {
+    background: #f0d7aa; }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
+    background: #f0c9b5; }
+  .tile.tile-13 .tile-inner {
+    color: #f9f6f2;
+    background: #ff0000; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background: #f59563; }
+  .tile.tile-21 .tile-inner {
+    color: #f9f6f2;
+    background: #ff7f00; }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     background: #f67c5f; }
+  .tile.tile-34 .tile-inner {
+    color: #f9f6f2;
+    background: #ffff00; }
+  .tile.tile-55 .tile-inner {
+    color: #f9f6f2;
+    background: #7fff00; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: #f65e3b; }
+  .tile.tile-89 .tile-inner {
+    color: #f9f6f2;
+    background: #00ff00; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #ff273b;
     font-size: 50px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-144 .tile-inner {
+    color: #f9f6f2;
+    background: #00ff00;
+    font-size: 50px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-144 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-233 .tile-inner {
+    color: #f9f6f2;
+    background: #00ff7f;
+    font-size: 50px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-233 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
@@ -423,12 +456,33 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
+  .tile.tile-377 .tile-inner {
+    color: #f9f6f2;
+    background: #00ffff;
+    font-size: 50px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-377 .tile-inner {
+        font-size: 25px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #ee8144;
     font-size: 50px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-610 .tile-inner {
+    color: #f9f6f2;
+    background: #007fff;
+    font-size: 50px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-610 .tile-inner {
+        font-size: 25px; } }
+  .tile.tile-987 .tile-inner {
+    color: #f9f6f2;
+    background: #0000ff;
+    font-size: 50px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-987 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
@@ -437,6 +491,14 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
+  .tile.tile-1597 .tile-inner {
+    color: #f9f6f2;
+    background: #0000ff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 37px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-1597 .tile-inner {
+        font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
@@ -444,6 +506,14 @@ hr {
     font-size: 37px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
+        font-size: 15px; } }
+  .tile.tile-2584 .tile-inner {
+    color: #f9f6f2;
+    background: #0000ff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 37px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2584 .tile-inner {
         font-size: 15px; } }
   .tile.tile-4096 .tile-inner {
     color: #f9f6f2;
