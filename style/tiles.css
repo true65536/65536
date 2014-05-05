@@ -18,13 +18,13 @@
     background: #f2b179; }
   .tile.tile-13 .tile-inner {
     color: #f9f6f2;
-    background: #ff0000; }
+    background: #bf0000; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background: #f59563; }
   .tile.tile-21 .tile-inner {
     color: #f9f6f2;
-    background: #ff7f00; }
+    background: #bf5f00; }
   .tile.tile-24 .tile-inner {
     color: #f9f6f2;
     background: #ff0000; }
@@ -33,19 +33,19 @@
     background: #f67c5f; }
   .tile.tile-34 .tile-inner {
     color: #f9f6f2;
-    background: #ffff00; }
+    background: #bfbf00; }
   .tile.tile-48 .tile-inner {
     color: #f9f6f2;
     background: #ff7f00; }
   .tile.tile-55 .tile-inner {
     color: #f9f6f2;
-    background: #7fff00; }
+    background: #5fbf00; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: #f65e3b; }
   .tile.tile-89 .tile-inner {
     color: #f9f6f2;
-    background: #00ff00; }
+    background: #00bf00; }
   .tile.tile-96 .tile-inner {
     color: #f9f6f2;
     background: #ffff00; }
@@ -58,7 +58,7 @@
         font-size: 25px; } }
   .tile.tile-144 .tile-inner {
     color: #f9f6f2;
-    background: #00ff00;
+    background: #00bf5f;
     font-size: 50px; }
     @media screen and (max-width: 520px) {
       .tile.tile-144 .tile-inner {
@@ -72,7 +72,7 @@
         font-size: 25px; } }
   .tile.tile-233 .tile-inner {
     color: #f9f6f2;
-    background: #00ff7f;
+    background: #00bfbf;
     font-size: 50px; }
     @media screen and (max-width: 520px) {
       .tile.tile-233 .tile-inner {
@@ -86,7 +86,7 @@
         font-size: 25px; } }
   .tile.tile-377 .tile-inner {
     color: #f9f6f2;
-    background: #00ffff;
+    background: #005fbf;
     font-size: 50px; }
     @media screen and (max-width: 520px) {
       .tile.tile-377 .tile-inner {
@@ -107,7 +107,7 @@
         font-size: 25px; } }
   .tile.tile-610 .tile-inner {
     color: #f9f6f2;
-    background: #007fff;
+    background: #0000bf;
     font-size: 50px; }
     @media screen and (max-width: 520px) {
       .tile.tile-610 .tile-inner {
