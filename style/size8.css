@@ -431,11 +431,11 @@ hr {
   -webkit-transform: translate(363px, 605px);
   -moz-transform: translate(363px, 605px);
   transform: translate(363px, 605px); }
-.tile.tile-position-3-7 {
+.tile.tile-position-4-7 {
   -webkit-transform: translate(363px, 726px);
   -moz-transform: translate(363px, 726px);
   transform: translate(363px, 726px); }
-.tile.tile-position-3-8 {
+.tile.tile-position-4-8 {
   -webkit-transform: translate(363px, 847px);
   -moz-transform: translate(363px, 847px);
   transform: translate(363px, 847px); }
@@ -463,6 +463,14 @@ hr {
   -webkit-transform: translate(484px, 605px);
   -moz-transform: translate(484px, 605px);
   transform: translate(484px, 605px); }
+.tile.tile-position-5-7 {
+  -webkit-transform: translate(484px, 726px);
+  -moz-transform: translate(484px, 726px);
+  transform: translate(484px, 726px); }
+.tile.tile-position-5-8 {
+  -webkit-transform: translate(363px, 847px);
+  -moz-transform: translate(363px, 847px);
+  transform: translate(363px, 847px); }
 .tile.tile-position-6-1 {
   -webkit-transform: translate(605px, 0px);
   -moz-transform: translate(605px, 0px);
