@@ -371,6 +371,27 @@ hr {
   .tile.tile-11 {
     color: #ffffff;
     background: #000000; }
+  .tile.tile-12 {
+    color: #ffffff;
+    background: #1f3f1f; }
+  .tile.tile-13 {
+    color: #ffffff;
+    background: #3f7f3f; }
+  .tile.tile-14 {
+    color: #ffffff;
+    background: #7fff7f; }
+  .tile.tile-15 {
+    color: #ffffff;
+    background: #7f7fff; }
+  .tile.tile-16 {
+    color: #ffffff;
+    background: #ff7fff; }
+  .tile.tile-17 {
+    color: #ffffff;
+    background: #ffff7f; }
+  .tile.tile-18 {
+    color: #ffffff;
+    background: #7fffff; }
 
 @-webkit-keyframes appear {
   0% {
