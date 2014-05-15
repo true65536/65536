@@ -48,7 +48,7 @@ GameManager.prototype.setup = function () {
   } else {
     this.grid        = new Grid(this.size);
     this.score       = 0;
-    maxStartingTile = 1;
+    this.maxStartingTile = 1;
     this.over        = false;
     this.won         = false;
     this.keepPlaying = false;
