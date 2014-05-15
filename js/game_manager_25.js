@@ -6,7 +6,7 @@ function GameManager(size, InputManager, Actuator, StorageManager, easy) {
   this.easy           = easy;
 
   this.startTiles     = 2;
-  var maxStartingTile = 1;
+  this.maxStartingTile = 1;
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
@@ -71,7 +71,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var tile = new Tile(this.grid.randomAvailableCell(), Math.ceil(Math.random() * maxSpawningTile));
+    var tile = new Tile(this.grid.randomAvailableCell(), Math.ceil(Math.random() * this.maxSpawningTile));
     this.grid.insertTile(tile);
   }
 };
@@ -157,9 +157,9 @@ GameManager.prototype.move = function (direction) {
         if (next && next.value === tile.value && !next.mergedFrom) {
           var merged = new Tile(positions.next, tile.value + 1);
           
-          if (this.easy && tile.value - 7 > maxStartingTile)
+          if (this.easy && tile.value > this.maxStartingTile - 5)
           {
-            maxStartingTile = maxStartingTile + 1;
+            this.maxStartingTile = this.maxStartingTile + 1;
           }
           
           merged.mergedFrom = [tile, next];
