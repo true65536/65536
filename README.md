@@ -1,2 +1,2 @@
 # Aarex2048
-[Play it here!](http://aarextiaokhiao.github.io/Aarex2048/)
+**NOTE**: These games are really old and modified by me.
