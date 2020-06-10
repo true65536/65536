@@ -42,7 +42,7 @@
     background: #801638; }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #bb0000; }
+    background: #0000bb; }
   .tile.tile-34 .tile-inner {
     color: #f9f6f2;
     background: #bfbf00; }
@@ -54,7 +54,7 @@
     background: #5fbf00; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #770000; }
+    background: #000077; }
   .tile.tile-81 .tile-inner {
     color: #f9f6f2;
     background: #83aec1; }
